@@ -1,0 +1,29 @@
+[
+  {
+    "mode":"H",
+    "name":"abek",
+    "games_played":2,
+    "wins":2,
+    "best_attempts":1,
+    "total_attempts":3,
+    "last_win":"2025-12-15"
+  },
+  {
+    "mode":"H",
+    "name":"nesya",
+    "games_played":2,
+    "wins":2,
+    "best_attempts":2,
+    "total_attempts":4,
+    "last_win":"2025-12-15"
+  },
+  {
+    "mode":"M",
+    "name":"nesya",
+    "games_played":1,
+    "wins":1,
+    "best_attempts":1,
+    "total_attempts":1,
+    "last_win":"2025-12-15"
+  }
+]
