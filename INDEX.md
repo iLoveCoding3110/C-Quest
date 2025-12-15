@@ -1,9 +1,9 @@
-# 📁 WORDLE C - KP 2025 PROJECT FOLDER
+# 📁 C-QUEST - KP 2025 PROJECT FOLDER
 
 ## Struktur Folder
 
 ```
-wordle_kp2025/
+c_quest_kp2025/
 ├── 📄 Core Source Files
 │   ├── score.h           (Header file untuk score management)
 │   ├── score.c           (Implementasi JSON & leaderboard)
@@ -14,7 +14,7 @@ wordle_kp2025/
 │   └── Makefile          (Compilation configuration)
 │
 ├── ⚙️ Executable
-│   └── wordle            (Compiled binary, ready to run)
+│   └── c_quest           (Compiled binary, ready to run)
 │
 └── 📚 Documentation
     ├── README.md                      (Comprehensive guide)
@@ -57,7 +57,7 @@ wordle_kp2025/
 
 ### 1. Navigate to Folder
 ```bash
-cd wordle_kp2025
+cd c_quest_kp2025
 ```
 
 ### 2. Compile (Optional - executable sudah ada)
@@ -67,7 +67,7 @@ make
 
 ### 3. Run Program
 ```bash
-./wordle
+./c_quest
 ```
 
 ### 4. Clean (Remove old builds)
@@ -94,8 +94,8 @@ make clean
 3. Test dengan `./wordle`
 
 ### For Submission
-1. Copy entire folder `wordle_kp2025/` ke tempat pengumpulan
-2. Atau compress: `zip -r wordle_kp2025.zip wordle_kp2025/`
+1. Copy entire folder `c_quest_kp2025/` ke tempat pengumpulan
+2. Atau compress: `zip -r c_quest_kp2025.zip c_quest_kp2025/`
 3. Include dokumentasi README.md jika diminta
 
 ### For Reference

@@ -1,4 +1,4 @@
-# QUICK START GUIDE - WORDLE C KP 2025
+# QUICK START GUIDE - C-QUEST KP 2025
 
 ## Langkah Cepat
 
@@ -7,16 +7,16 @@
 cd /workspaces/210705390
 make
 ```
-Output: Program `wordle` berhasil dikompilasi
+Output: Program `c_quest` berhasil dikompilasi
 
 ### 2️⃣ Run
 ```bash
-./wordle
+./c_quest
 ```
 
 ### 3️⃣ Main Menu Muncul
 ```
-=== WORDLE C (Menu) ===
+=== C-QUEST (Menu) ===
 1) Login / Set nama pemain (current: (belum login))
 2) Tampilkan Top Scores (pilih mode)
 3) Tampilkan Riwayat Pemain (all-time per mode)
@@ -60,7 +60,7 @@ Pilih (1-5):
 ├── game.c               ← Game loop logic
 ├── main.c               ← Menu & entry point
 ├── Makefile             ← Build config
-├── wordle               ← EXECUTABLE (hasil compile)
+├── c_quest              ← EXECUTABLE (hasil compile)
 ├── scores.json          ← Data skor pemain (auto-created after first win)
 ├── README.md            ← Dokumentasi lengkap
 └── IMPLEMENTATION_SUMMARY.md ← Summary implementasi

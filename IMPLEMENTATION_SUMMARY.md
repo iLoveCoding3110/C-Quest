@@ -1,4 +1,4 @@
-# RINGKASAN IMPLEMENTASI WORDLE C - KP 2025
+# RINGKASAN IMPLEMENTASI C-QUEST - KP 2025
 
 ## Status Implementasi ✅
 
@@ -48,9 +48,9 @@ Semua fitur yang diminta telah berhasil diimplementasikan. Program dapat dikompi
 - Contoh skenario penggunaan
 - Troubleshooting guide
 
-### 7. **wordle** (executable, 22K)
+### 7. **c_quest** (executable, 22K)
 - Hasil compile dari semua source files
-- Ready to run: `./wordle`
+- Ready to run: `./c_quest`
 
 ## Fitur-Fitur yang Diimplementasikan
 

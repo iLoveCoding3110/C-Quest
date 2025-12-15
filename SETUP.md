@@ -1,4 +1,4 @@
-# 🚀 SETUP & BUILD GUIDE
+# 🚀 SETUP & BUILD GUIDE - C-QUEST
 
 ## Prerequisites
 
@@ -26,22 +26,22 @@ brew install gcc make
 
 ### Option 1: Using Pre-compiled Binary (Fastest)
 ```bash
-cd wordle_kp2025
-./wordle
+cd c_quest_kp2025
+./c_quest
 ```
 
 ### Option 2: Compile from Source
 ```bash
-cd wordle_kp2025
+cd c_quest_kp2025
 make
-./wordle
+./c_quest
 ```
 
 ## Detailed Build Instructions
 
 ### Step 1: Navigate to Folder
 ```bash
-cd wordle_kp2025
+cd c_quest_kp2025
 ```
 
 ### Step 2: Clean Old Builds (Optional)
@@ -72,7 +72,7 @@ You should see: `-rwxr-xr-x 1 ... wordle` (executable with x permission)
 
 ### Step 5: Run Program
 ```bash
-./wordle
+./c_quest
 ```
 
 ## Makefile Targets
@@ -81,7 +81,7 @@ You should see: `-rwxr-xr-x 1 ... wordle` (executable with x permission)
 |---------|--------|
 | `make` atau `make all` | Compile project (default) |
 | `make clean` | Remove object files, executable, scores.json |
-| `make wordle` | Build executable only |
+| `make c_quest` | Build executable only |
 | `make main.o` | Build main.o only |
 | `make game.o` | Build game.o only |
 | `make score.o` | Build score.o only |

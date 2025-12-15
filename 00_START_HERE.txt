@@ -1,13 +1,13 @@
 ╔══════════════════════════════════════════════════════════════════════════╗
-║                     WORDLE C - KP 2025 PROJECT                          ║
+║                    C-QUEST - KP 2025 PROJECT                            ║
 ║                        ✅ READY TO USE                                  ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 
-📁 FOLDER: wordle_kp2025/
+📁 FOLDER: c_quest_kp2025/
 
 🎯 QUICK START:
    1. make
-   2. ./wordle
+   2. ./c_quest
 
 📚 DOCUMENTATION (pilih salah satu):
    ├─ QUICKSTART.md           ← Mulai dari sini untuk quick reference
@@ -22,7 +22,7 @@
    ├─ game.c                  (Game logic & evaluation)
    ├─ main.c                  (Menu system)
    ├─ Makefile                (Build configuration)
-   └─ wordle                  (Compiled executable - ready to run)
+   └─ c_quest                 (Compiled executable - ready to run)
 
 ✨ FEATURES:
    ✅ Menu login system (tanpa password)
@@ -43,9 +43,9 @@
    Created: December 9, 2025
 
 🚀 FIRST TIME SETUP:
-   $ cd wordle_kp2025
+   $ cd c_quest_kp2025
    $ make clean && make
-   $ ./wordle
+   $ ./c_quest
    
    [Menu akan muncul - pilih opsi 1 untuk login]
    [Pilih opsi 4 untuk mainkan game]
@@ -55,7 +55,7 @@
    1. Baca QUICKSTART.md untuk quick reference
    2. Baca README.md untuk detailed explanation
    3. Baca SETUP.md untuk compile troubleshooting
-   4. Run: ./wordle dan test semua menu options
+   4. Run: ./c_quest dan test semua menu options
 
 ✅ VERIFICATION:
    ✓ All source files present

@@ -1,4 +1,4 @@
-# 📋 FILE SUBMISSION CHECKLIST - WORDLE C KP 2025
+# 📋 FILE SUBMISSION CHECKLIST - C-QUEST KP 2025
 
 ## ✅ Source Code Files (Core)
 
@@ -31,9 +31,9 @@
   - GCC flags: -O2 -Wall -std=c99
   - Clean target
 
-- ✅ **wordle** (22 KB - executable)
+- ✅ **c_quest** (22 KB - executable)
   - Compiled binary
-  - Ready to run: `./wordle`
+  - Ready to run: `./c_quest`
 
 ## ✅ Documentation Files
 

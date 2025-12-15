@@ -1,8 +1,8 @@
-# WORDLE C - Dokumentasi & README
+# C-QUEST - Dokumentasi & README
 
 ## Ringkasan Program
 
-Program ini adalah klon game Wordle sederhana yang ditulis dalam bahasa C, dengan fitur-fitur tambahan seperti:
+Program ini adalah game puzzle kata C-Quest yang ditulis dalam bahasa C, dengan fitur-fitur tambahan seperti:
 - **Menu Login**: Sistem login tanpa password (seperti arcade scoreboard)
 - **Multiple Levels**: Easy (15 percobaan), Medium (10 percobaan), Hard (5 percobaan)
 - **Statistik Pemain**: Menyimpan statistik lengkap untuk setiap pemain per mode
@@ -57,7 +57,7 @@ File `scores.json` menyimpan data dalam format JSON array:
 ├── game.c           # Implementasi game logic (play session, evaluasi tebakan)
 ├── main.c           # Menu utama dan program entry point
 ├── Makefile         # Build configuration
-├── wordle           # Executable (hasil compile)
+├── c_quest          # Executable (hasil compile)
 └── README.md        # File dokumentasi ini
 ```
 
@@ -79,12 +79,12 @@ gcc -O2 -Wall -std=c99 -o wordle main.o game.o score.o
 
 ### 2. Jalankan Program
 ```bash
-./wordle
+./c_quest
 ```
 
 ### 3. Menu Utama
 ```
-=== WORDLE C (Menu) ===
+=== C-QUEST (Menu) ===
 1) Login / Set nama pemain (current: (belum login))
 2) Tampilkan Top Scores (pilih mode)
 3) Tampilkan Riwayat Pemain (all-time per mode)
